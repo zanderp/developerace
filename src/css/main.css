@@ -1,0 +1,68 @@
+.hero-section {
+    height: 100vh;
+    background: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.cta-button {
+    background-color: #f5a623;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.about-section, .projects-section, .contact-section {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Sticky header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav {
+    width: 80%;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Style for the theme toggle button */
+.theme-toggle-button {
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
